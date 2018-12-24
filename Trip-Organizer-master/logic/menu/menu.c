@@ -30,7 +30,13 @@ int askUserForOption() {
 }
 
 int isCorrect(int option) {
-	return option < FIRST_OPTION && option > LAST_OPTION;
+	int ok = 1;
+
+	if (option < FIRST_OPTION || option > LAST_OPTION){
+		ok = 0;
+	}
+
+	return ok;
 }
 
 int isExit(int option) {
