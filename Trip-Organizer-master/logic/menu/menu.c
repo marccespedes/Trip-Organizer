@@ -89,6 +89,7 @@ void printDestination(Destination d, int pos, int option) {
 	printf("\tName:\t\t%s\n", d.name);
 	printf("\tCountry:\t%s\n", d.country);
 
+
 	switch (option) {
 		case BY_TIME:
 			printf("\tTime:\t\t%lf\n", getTimeFromBcn(d));
