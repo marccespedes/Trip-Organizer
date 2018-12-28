@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb10f9e-235d-474a-9d94-c1e857be4026" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mainDatabase.nymal" beforeDir="false" afterPath="$PROJECT_DIR$/data/mainDatabase.nymal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/destination/destination.c" beforeDir="false" afterPath="$PROJECT_DIR$/model/destination/destination.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,8 +180,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/data/mainDatabase.nymal">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1564">
-                  <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
+                <state relative-caret-position="373">
+                  <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -225,8 +223,8 @@
         <option value="$PROJECT_DIR$/logic/functions/functions.c" />
         <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/logic/utils/utils.c" />
-        <option value="$PROJECT_DIR$/data/mainDatabase.nymal" />
         <option value="$PROJECT_DIR$/model/destination/destination.c" />
+        <option value="$PROJECT_DIR$/data/mainDatabase.nymal" />
       </list>
     </option>
   </component>
@@ -343,7 +341,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30658000" />
+    <option name="totallyTimeSpent" value="30667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -435,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/mainDatabase.nymal">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
+        <state relative-caret-position="373">
+          <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
         </state>
       </provider>
     </entry>
