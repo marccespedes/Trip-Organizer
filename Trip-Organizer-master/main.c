@@ -41,6 +41,6 @@ int main() {
 	destroy(&l);
 
 	fclose(f);
-	
+
 	return 0;
 }

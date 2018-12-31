@@ -62,7 +62,7 @@ char * readUserString() {
 	} while (tmp != '\n');
 
 	resize(&ret, i + 1);
-
+	
 	return ret;
 }
 

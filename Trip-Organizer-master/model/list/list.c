@@ -10,21 +10,28 @@ List create() {
 
 	//Demanem memòria pel primer fantasma
 	l.first = (Node *) malloc (sizeof (Node));
+	if(l.first == NULL){
+	    printf("Error!\n")
+	}else{
+        //Demanem memòria pel darrer fantasma
+        l.last = (Node *) malloc (sizeof (Node));
 
-	//Demanem memòria pel darrer fantasma
-	l.last = (Node *) malloc (sizeof (Node));
+        if(l.last == NULL){
+            printf("Error!\n");
+            free(l.first);
+        }else{
+            //Inicialitzacions
+            for (i = 0; i < MAX_SORTING; i++) {
+                l.poi[i] = l.first;
+                l.first -> next[i] = l.last;
+                l.first -> prev[i] = NULL;
+                l.last -> next[i] = NULL;
+                l.last -> prev[i] = l.first;
+            }
 
-	//Inicialitzacions
-	for (i = 0; i < MAX_SORTING; i++) {
-		l.poi[i] = l.first;
-		l.first -> next[i] = l.last;
-		l.first -> prev[i] = NULL;
-		l.last -> next[i] = NULL;
-		l.last -> prev[i] = l.first;
+            l.n = 0;
+        }
 	}
-
-	l.n = 0;
-
 	return l;
 }
 
