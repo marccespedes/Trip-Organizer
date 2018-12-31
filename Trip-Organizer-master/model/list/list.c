@@ -171,4 +171,7 @@ void destroy(List * l) {
 		removePoi(l, 0);
 	}
 
+	free(l->last);
+	free(l->first);
+
 }
