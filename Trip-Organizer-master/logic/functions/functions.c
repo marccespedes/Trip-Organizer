@@ -104,7 +104,7 @@ void readNewFile(List * l) {
 	} else {
 		printFileError(input);
 	}
-
+	free(input);
 	fclose(f);
 }
 
