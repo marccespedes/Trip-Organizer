@@ -12,7 +12,7 @@
     <list default="true" id="9cb10f9e-235d-474a-9d94-c1e857be4026" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logic/functions/functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/logic/functions/functions.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/utils/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/logic/utils/utils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/functions/functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/logic/functions/functions.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,26 +57,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="c" value="34" />
-          <entry key="h" value="26" />
+          <entry key="h" value="27" />
           <entry key="nymal" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="60" />
+          <entry key="ObjectiveC" value="61" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="525" />
+          <entry key="c" value="537" />
           <entry key="h" value="76" />
           <entry key="nymal" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="601" />
+          <entry key="ObjectiveC" value="613" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -87,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/list/list.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
+            <state relative-caret-position="1921">
               <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
             </state>
           </provider>
@@ -105,8 +105,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logic/functions/functions.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -114,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logic/functions/functions.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+            <state relative-caret-position="498">
+              <caret line="107" column="14" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -174,6 +183,8 @@
       <find>freeAll</find>
       <find>isExit</find>
       <find>readString</find>
+      <find>exec</find>
+      <find>readNewFi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,13 +193,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/logic/functions/functions.h" />
         <option value="$PROJECT_DIR$/data/mainDatabase.nymal" />
         <option value="$PROJECT_DIR$/logic/menu/menu.c" />
         <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/model/list/list.c" />
         <option value="$PROJECT_DIR$/model/destination/destination.c" />
         <option value="$PROJECT_DIR$/logic/utils/utils.c" />
+        <option value="$PROJECT_DIR$/logic/functions/functions.h" />
         <option value="$PROJECT_DIR$/logic/functions/functions.c" />
       </list>
     </option>
@@ -309,12 +320,12 @@
       <workItem from="1546345833732" duration="2334000" />
       <workItem from="1546354712940" duration="2731000" />
       <workItem from="1546361651756" duration="1372000" />
-      <workItem from="1546379435130" duration="1145000" />
+      <workItem from="1546379435130" duration="3369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68775000" />
+    <option name="totallyTimeSpent" value="70999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -396,13 +407,6 @@
     <entry file="file://$PROJECT_DIR$/makefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/logic/functions/functions.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logic/menu/menu.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -458,24 +462,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
+    <entry file="file://$PROJECT_DIR$/logic/functions/functions.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/list/list.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
+        <state relative-caret-position="1921">
           <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logic/functions/functions.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+        <state relative-caret-position="498">
+          <caret line="107" column="14" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
         </state>
       </provider>
     </entry>

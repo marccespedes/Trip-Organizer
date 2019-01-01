@@ -105,6 +105,7 @@ void readNewFile(List * l) {
 		printFileError(input);
 	}
 
+	fclose(f);
 }
 
 void execute(int option, List * l) {

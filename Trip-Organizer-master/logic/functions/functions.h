@@ -9,7 +9,7 @@ void readWholeFile(FILE * f, List * l);
 void showAllDestinations(List *l);
 int comparePrices(const void * a, const void * b);
 void planTrip(List *l);
-void readNewFile(int option, List * l);
+void readNewFile(List * l);
 
 
 #endif
